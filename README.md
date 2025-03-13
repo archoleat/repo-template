@@ -32,7 +32,6 @@ This template includes ready-made solutions for integration with:
 - **GitHub Actions**.
 - **Semantic Release**.
 - **Bun**.
-- **CodeQL**.
 - **Specs**.
 - **EditorConfig**.
 - **ESLint**.
@@ -41,15 +40,6 @@ This template includes ready-made solutions for integration with:
 - **TypeScript**.
 - **Dependabot**.
 - **Welcome Bot**.
-
-> \[!TIP]
-> **A good solution for your business!**
->
-> Now you don't have to worry about unnecessary costs.
-> Everything is already set up and prepared for you!
->
-> And also the template is very good for teams,
-> because you can easily standardize projects with this template.
 
 ## Getting Started
 
@@ -66,15 +56,6 @@ This template includes ready-made solutions for integration with:
 
 1. **Configure GitHub Actions**: Modify GitHub Actions
    settings to fit your requirements.
-
-   > **For those unfamiliar with GitHub Actions**,
-   > our workflows use
-   > [**chain**](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_run),
-   > if you want to add more workflows to this chain,
-   > workflows it won't work, because the chain supports
-   > only three levels, example: `workflow A` > `workflow B` >
-   > `workflow C` > `workflow D`, if you add `workflow E`
-   > to the chain. it won't work!
 
 ## Features
 
@@ -134,9 +115,6 @@ This template includes ready-made solutions for integration with:
 - [`auto-merge-dependabot-pull-request.yaml`](.github/workflows/auto-merge-dependabot-pull-request.yaml):
   Automatically merges dependabot **Pull Requests** to the **main** branch.
 
-- [`codeql.yaml`](.github/workflows/codeql.yaml):
-  Checks **JavaScript** and **TypeScript** for vulnerabilities.
-
 - [`commitlint.yaml`](.github/workflows/commitlint.yaml):
   Checks the commit message according
   to the **Conventional Commits** standard.
@@ -148,13 +126,10 @@ This template includes ready-made solutions for integration with:
 - [`editorconfig.yaml`](.github/workflows/editorconfig.yaml):
   Checks all files with **Editorconfig Checker**.
 
-  > All ignore files [`.ecrc`](.ecrc).
+  > All ignore files [`.editorconfig-checker.json`](.editorconfig-checker.json).
 
 - [`eslint.yaml`](.github/workflows/eslint.yaml):
   Checks all **TypeScript** files with **ESLint**.
-
-- [`remark.yaml`](.github/workflows/remark.yaml):
-  Checks all **Markdown** files with **Remark**.
 
   > All ignore files [`.remarkignore`](.remarkignore).
 
@@ -168,7 +143,10 @@ This template includes ready-made solutions for integration with:
 
 - [`release.yaml`](.github/workflows/release.yaml): Creates release.
 
-- [`semantic-pull-request.yaml`](.github/workflows/semantic-pull-request-title.yaml):
+- [`remark.yaml`](.github/workflows/remark.yaml):
+  Checks all **Markdown** files with **Remark**.
+
+- [`semantic-pull-request-title.yaml`](.github/workflows/semantic-pull-request-title.yaml):
   Validates the **Pull Request** title
   against the **conventional commits** standard.
 
@@ -186,9 +164,9 @@ The following files use the names **Archoleat** and **nikkeyl** by default:
 - [`CODEOWNERS`](.github/CODEOWNERS).
 - [`LICENSE`](LICENSE).
 - [`CHANGELOG.md`](CHANGELOG.md).
-- [`README.md`](README.md).
-- [`FUNDING.yaml`](.github/FUNDING.yaml).
 - [`package.json`](package.json).
+- [`README.md`](README.md).
+- [`config.yml`](.github/config.yml).
 - [`release.yaml`](.github/workflows/release.yaml).
 
 Before using this template, replace this names with your
