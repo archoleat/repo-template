@@ -83,9 +83,6 @@ This template includes ready-made solutions for integration with:
   > to reduce the execution time, which means it will significantly
   > reduce your costs!
 
-  - **Security**: Included **CodeQL** workflow for detecting
-    and preventing potential vulnerabilities in your code.
-
   - **Linters**: Help you maintain a consistent code writing style
     and find errors.
 
