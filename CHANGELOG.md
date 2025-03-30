@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.8.2](https://github.com/archoleat/repo-template/compare/v1.8.1...v1.8.2) (2025-03-30)
+
+### Bug Fixes
+
+* checker ([#485](https://github.com/archoleat/repo-template/issues/485)) ([e35b5b2](https://github.com/archoleat/repo-template/commit/e35b5b2e51cf0cd36462f2b3d1b9d4824789b6af))
+
+### Code Refactoring
+
+* change path ([#481](https://github.com/archoleat/repo-template/issues/481)) ([5fa4221](https://github.com/archoleat/repo-template/commit/5fa42212819044ce29a0948ab9b755406917f9b5))
+* ecrc ([85dcf6a](https://github.com/archoleat/repo-template/commit/85dcf6a8448b1a0184f5dcf962a10bc051e799be))
+* gitignore ([f50244d](https://github.com/archoleat/repo-template/commit/f50244d370e60eb74437cfc8a535cd52babde373))
+* ignore ([e4d758b](https://github.com/archoleat/repo-template/commit/e4d758b454d258cba79e05b11319994d77b965d3))
+* tsconfig ([7932e04](https://github.com/archoleat/repo-template/commit/7932e04601f2b0ce1bd4b5789349bc358f47b15f))
+
+### Documentation
+
+* readme ([8f93e3f](https://github.com/archoleat/repo-template/commit/8f93e3f96d27649aff530a6c5dd2a375bf7d7b0f))
+* **readme:** rewrite ([3769f56](https://github.com/archoleat/repo-template/commit/3769f56073e007f3f7d97e6ea1bd38e33a4315a5))
+* **readme:** rewrite ([6e9b183](https://github.com/archoleat/repo-template/commit/6e9b1832e4c1476552aa83a9d48fcd596b34441e))
+
 ## [1.8.1](https://github.com/archoleat/repo-template/compare/v1.8.0...v1.8.1) (2024-12-22)
 
 ### Code Refactoring
