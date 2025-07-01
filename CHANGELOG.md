@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.8.3](https://github.com/archoleat/repo-template/compare/v1.8.2...v1.8.3) (2025-07-01)
+
+### Code Refactoring
+
+* remove comments ([6bc6b68](https://github.com/archoleat/repo-template/commit/6bc6b6839ac1bc33e820d2c92e80139eadd08da4))
+
 ## [1.8.2](https://github.com/archoleat/repo-template/compare/v1.8.1...v1.8.2) (2025-03-30)
 
 ### Bug Fixes
