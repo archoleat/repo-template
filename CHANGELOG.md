@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.8.4](https://github.com/archoleat/repo-template/compare/v1.8.3...v1.8.4) (2025-08-15)
+
+### Code Refactoring
+
+* dependabot ([#520](https://github.com/archoleat/repo-template/issues/520)) ([b6e056c](https://github.com/archoleat/repo-template/commit/b6e056c4719e855b7c1320bcd732cfc15e3c27c0))
+
 ## [1.8.3](https://github.com/archoleat/repo-template/compare/v1.8.2...v1.8.3) (2025-07-01)
 
 ### Code Refactoring
