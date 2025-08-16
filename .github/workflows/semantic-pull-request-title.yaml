@@ -9,6 +9,9 @@ on:
       - opened
       - synchronize
 
+permissions:
+  contents: read
+
 jobs:
   semantic-pull-request-title:
     name: Semantic Pull Request Title

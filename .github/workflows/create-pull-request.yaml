@@ -3,6 +3,9 @@ name: Create Pull Request
 on:
   push:
 
+permissions:
+  contents: read
+
 jobs:
   create-pull-request:
     name: Create Pull Request
