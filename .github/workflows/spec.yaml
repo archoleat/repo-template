@@ -14,6 +14,9 @@ on:
       - 'package.json'
       - 'src/**/*.ts'
 
+permissions:
+  contents: read
+
 jobs:
   spec:
     name: Spec

@@ -12,6 +12,9 @@ on:
     paths:
       - 'src/**/*.ts'
 
+permissions:
+  contents: read
+
 jobs:
   eslint:
     name: ESLint

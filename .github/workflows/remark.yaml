@@ -12,6 +12,9 @@ on:
     paths:
       - '**/*.md'
 
+permissions:
+  contents: read
+
 jobs:
   remark:
     name: Remark
