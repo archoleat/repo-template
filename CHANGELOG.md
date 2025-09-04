@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 (2025-09-04)
+
+### Features
+
+* files ([b4d1535](https://github.com/archoleat/repo-template/commit/b4d15351c8b2cbcc41adf33ad8cad8284b7c36a9))
+* git files ([#9](https://github.com/archoleat/repo-template/issues/9)) ([975e044](https://github.com/archoleat/repo-template/commit/975e0442278b2d0034e7b6400909ce5125bb2fc2))
+
 ## [1.8.4](https://github.com/archoleat/repo-template/compare/v1.8.3...v1.8.4) (2025-08-15)
 
 ### Code Refactoring
